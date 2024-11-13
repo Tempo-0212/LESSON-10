@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.PUBG {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFC107;
+}
+
+.PUBG1 a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.TIL {
+    margin-right: 20px;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    background: none;
+    border: black;
+}
+
+option {
+    background-color: black;
+    background: none;
+    border: black;
+    color: black;
+}
+
+.Play-button {
+    padding: 10px 20px;
+    background-color: #FFC107;
+    color: #000;
+    border: none;
+    font-size: 16px;
+}
+
+.container {
+    background-image: url('assets/images/image\ 5.jpg');
+    background-size: cover;
+    background-position: autp;
+    height: 80vh;
+    position: relative;
+}
+
+.PUBG2 {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.ERANGEL {
+    font-size: 48px;
+    font-weight: bold;
+    background-color: rgba(241, 169, 0, 0.33);
+    padding: 20px 40px;
+    margin-top: 20px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.pc-button,
+.console-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.pc-button {
+    background-color: #FFC107;
+    color: #000;
+}
+
+.console-button {
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid #FFC107;
+}
+
+.footer {
+
+    padding: 13px;
+    background-color: #000;
+
+}
+
+.PUBG3 a {
+    margin: 0 10px;
+    text-decoration: none;
+    margin: 100px 
+}
